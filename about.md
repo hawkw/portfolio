@@ -7,8 +7,8 @@ permalink: /about/
 
 <p class="lead">Eliza Weisman is an artist currently based in Pennsylvania.</p>
 
-Eliza's artistic practice sits at a nexus between interactive art, storytelling, and ritual. She has worked with a wide range of media, including electronic and digital art, sculpture, living organisms, and performance.
+Eliza's artistic practice sits at a nexus between interactive art, storytelling, and ritual. She has worked with a wide range of media, including electronic and digital art, sculpture, living organisms, and performance. Drawing together elements of mysticism, the technoculture, and social criticism, Eliza's work and explores themes of the occult, the future of humanity, and the role of technology in society, and is informed by her personal experiences as a scientist and engineer, as a transgender woman, and as a member of the so-called "millennial generation".
 
-![process]({{ site.github.url }}/assets/process.png)
+![water of life]({{ site.github.url }}/assets/wol_banner.jpg)
 
-Her work draws together elements of mysticism, the technoculture, and social criticism, and explores themes of the occult, the future of humanity, and the role of technology in society.
+Eliza sees herself as a storyteller as well as an artist. In much of her work, she aims to create objects and experiences that act as windows into hypothetical alternate realities. Through installations, interactive objects, and performance, the audience is invited to take an active role in exploring these fabricated worlds and experiencing their stories. With every viewer bringing their own lived experiences and perspectives to fill in the blanks, these windows into alternate realities can become mirrors that reflect the real world.
