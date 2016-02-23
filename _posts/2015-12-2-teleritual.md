@@ -1,7 +1,7 @@
 ---
 title: Teleritual
 ---
-![Teleritual](/assets/teleritual/teleritual_01.jpg)
+![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_01.jpg)
 
 <!--excerpt-->
 
@@ -9,5 +9,5 @@ title: Teleritual
 
 Like much of my work, <i>Teleritual</i>  sits at the nexus of mysticism, technoculture, and social criticism; and can be seen as an interactive artwork, a religious object, or a communication device.
 
-![Teleritual](/assets/teleritual/teleritual_02.jpg)
-![Teleritual](/assets/teleritual/teleritual_03.jpg)
+![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_02.jpg)
+![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_03.jpg)

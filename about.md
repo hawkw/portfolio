@@ -7,4 +7,4 @@ permalink: /about/
 
 While she is still trying to find terminology to adequately describe her artistic practice, Eliza's work occupies a space within interactive, electronic, and performance art.
 
-![the spirits of the ethernet](/assets/teleritual/spirits_of_the_ethernet.png)
+![the spirits of the ethernet]({{ site.github.url }}/assets/teleritual/spirits_of_the_ethernet.png)
