@@ -25,4 +25,4 @@ These dualities, and the vital part water plays in our lives, mean that water ho
 ![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_b_01.jpg)
 ![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_b_02.jpg)
 
-Photographs courtesy of Byron Rich.
+The artist would like to thank the {K,Ch}rises, Kris Troy and Dr. Chris Lundberg, for providing technical assistance with the biological component of this work; and Byron Rich, for the last two photographs displayed on this page.
