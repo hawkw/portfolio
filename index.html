@@ -18,12 +18,12 @@ layout: default
 {% for post in site.posts %}
   <div class="list-item">
     <h2 class="list-post-title">
-      <a href="{{ page.url | prepend: site.github.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
     </h2>
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
     </div>
-    <div class="excerpt"> <a href="{{ page.url | prepend: site.github.url }}">{{ post.excerpt }}</a> </div>
+    <div class="excerpt"> <a href="{{ post.url | prepend: site.github.url }}">{{ post.excerpt }}</a> </div>
   </div>
 {% endfor %}
 {% endif %}
