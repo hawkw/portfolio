@@ -3,7 +3,7 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name:               "Eliza Weisman"
 
 # URL
 baseurl:            ""
@@ -16,9 +16,11 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "about"
+  - name:           "Résumé & CV"
+    href:           ""
+  - name:           "Contact"
+    href:           "mailto://hi@hawkweisman.me"
 
 # Sass
 sass:
@@ -38,3 +40,5 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+excerpt_separator: "<!--excerpt-->"

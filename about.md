@@ -3,6 +3,8 @@ title: About
 permalink: /about/
 ---
 
-<p class="lead"><a href="http://github.com/gfjaru/Kiko">Kiko</a> is a theme for <a href="http://jekyllrb.com">Jekyll</a>, the static site generator.</p>
+<p class="lead">Eliza Weisman is an artist currently based in Pennsylvania.</p>
 
-Kiko is simple, lightweight theme. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
+While she is still trying to find terminology to adequately describe her artistic practice, Eliza's work occupies a space within interactive, electronic, and performance art.
+
+![the spirits of the ethernet]({{ site.url }}/assets/teleritual/spirits_of_the_ethernet.png)

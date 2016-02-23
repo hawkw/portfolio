@@ -1,6 +1,115 @@
 ---
 ---
 
+/* Fonts */
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 200;
+//     font-style: normal;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-ExtraLight.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-ExtraLight.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-ExtraLight.ttf') format('truetype');
+// }
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 200;
+//     font-style: italic;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-ExtraLightIt.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-ExtraLightIt.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-ExtraLightIt.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-ExtraLightIt.ttf') format('truetype');
+// }
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 300;
+//     font-style: normal;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-Light.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-Light.ttf') format('truetype');
+// }
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 300;
+//     font-style: italic;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-LightIt.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-LightIt.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-LightIt.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-LightIt.ttf') format('truetype');
+// }
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 400;
+//     font-style: normal;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-Regular.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-Regular.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-Regular.ttf') format('truetype');
+// }
+//
+// @font-face{
+//     font-family: 'Source Sans Pro';
+//     font-weight: 400;
+//     font-style: italic;
+//     font-stretch: normal;
+//     src: url('fonts/EOT/SourceSansPro-It.eot') format('embedded-opentype'),
+//          url('fonts/WOFF/OTF/SourceSansPro-It.otf.woff') format('woff'),
+//          url('fonts/OTF/SourceSansPro-It.otf') format('opentype'),
+//          url('fonts/TTF/SourceSansPro-It.ttf') format('truetype');
+// }
+//
+
+@font-face {
+    font-family: 'Hythlodaeus';
+    src: url('fonts/hythlodaeus-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Hythlodaeus Lining';
+    src: url('fonts/hythlodaeus-regular-lining-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Hythlodaeus';
+    src: url('fonts/hythlodaeus-italic-webfont.woff') format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Hythlodaeus';
+    src: url('fonts/hythlodaeus-bold-webfont.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Hythlodaeus SC';
+    src: url('fonts/hythlodaeus-sc-webfont.woff') format('woff');
+}
+
+
+$serif-font-stack: "Hythlodaeus", serif;
+$sans-font-stack: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$code-font-stack: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+
+.small-caps {
+    -ms-font-feature-settings: "smcp";
+    -moz-font-feature-settings: "smcp";
+    -webkit-font-feature-settings: "smcp";
+    font-feature-settings: "smcp";
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -11,10 +120,10 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: $serif-font-stack;
 }
 
 html {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -25,10 +134,12 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #000000;
+  background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  line-height: 175%;
+  font-size: 16px;
 }
 
 a {
@@ -46,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.1;
-  color: #333;
+  color: black;
   letter-spacing: -.025rem;
 }
 
@@ -68,6 +179,7 @@ h4, h5, h6 {
 
 p {
   margin: 0 0 1rem;
+  // font-size: 13px;
 }
 
 ul, ol, dl {
@@ -111,6 +223,11 @@ ol {
     margin-top: .25rem;
     margin-bottom: .5rem;
   }
+}
+
+.content {
+    // font-size: 16px;
+    font-family: $serif-font-stack;
 }
 
 p + h1,
@@ -162,7 +279,7 @@ blockquote {
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: $code-font-stack;
 }
 
 code {
@@ -204,7 +321,7 @@ pre code {
 }
 
 .gist .gist-file {
-  font-family: Menlo, Monaco, "Courier New", monospace !important;
+  font-family: $code-font-stack !important;
 }
 
 .gist .markdown-body {
@@ -232,8 +349,24 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  // border-radius: 5px;
 }
+
+// .vimeo {
+//   display: block;
+//   margin: 0 0 1rem;
+//   border-radius: 5px;
+//   overflow: hidden;
+// }
+//
+// iframe,
+// object,
+// embed{
+//     -webkit-border-radius: 5px !important;
+//     -ms-border-radius: 5px !important;
+//     -o-border-radius: 5px !important;
+//     border-radius: 5px !important;
+// }
 
 table {
   margin-bottom: 1rem;
@@ -271,10 +404,11 @@ tbody tr:nth-child(odd) th {
 .masthead {
 
   &-title {
-    font-weight: 300;
+    font-family: $serif-font-stack;
+    margin-bottom: -0.65rem;
 
     a {
-      color: #333;
+      color: black;
 
       &:hover,
       &:focus {
@@ -289,13 +423,14 @@ tbody tr:nth-child(odd) th {
   }
 
   &-title--small {
-    margin-bottom: .75rem;
+    // margin-bottom: .75rem;
+    font-family: $sans-font-stack;
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
 
     a {
-      color: #333;
+      color: black;
 
       &:hover,
       &:focus {
@@ -306,18 +441,22 @@ tbody tr:nth-child(odd) th {
 
   .masthead-nav {
     margin-bottom: 2rem;
+    font-family: $sans-font-stack;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
 
     a {
-      color: #aaa;
-      font-weight: 300;
-      text-transform: lowercase;
+      color: black;
+    //   font-weight: 300;
+    //   text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
 
       &:hover,
       &:focus {
-        color: #333;
+        color: #ddd;
         text-decoration: none;
       }
 
@@ -337,21 +476,26 @@ tbody tr:nth-child(odd) th {
 
 .post {
   &-title {
-    margin-bottom: .25rem;
+    margin-bottom: -.55rem;
   }
   &-date {
     margin-bottom: 2rem;
     font-size: .75rem;
     text-transform: uppercase;
+    // font-variant: small-caps;
+    font-family: 'Hythlodaeus Lining', 'Hythlodaeus';
+    + a {
+      margin-left: .25rem;
+    }
   }
 }
 
 .list {
   &-post-title {
-    margin-bottom: .25rem;
+    margin-bottom: -.30rem;
 
     a {
-      color: #333;
+      color: black;
 
       &:hover,
       &:focus {
@@ -360,9 +504,17 @@ tbody tr:nth-child(odd) th {
     }
   }
   &-post-date {
-    margin-bottom: 1rem;
+    margin-bottom: .30rem;
     font-size: .75rem;
     text-transform: uppercase;
+    // font-variant: small-caps;
+    font-family: 'Hythlodaeus Lining', 'Hythlodaeus';
+    + a {
+      margin-left: .25rem;
+    }
+  }
+  .excerpt {
+      margin-bottom: 3rem;
   }
 }
 
