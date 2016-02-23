@@ -1,5 +1,6 @@
 ---
 title: Small Engine Maintenance & Repair
+image: ""
 ---
 
 <div class="vimeo"><iframe width="720" height="478" src="http://player.vimeo.com/video/140740344" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen wmode="transparent"></iframe></div>

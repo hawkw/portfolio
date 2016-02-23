@@ -1,10 +1,9 @@
 ---
 title: Water of Life
+image: "assets/water_of_life/water_of_life_01.png"
 ---
-
-![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_01.png)
-
 <!--excerpt-->
+![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_01.png)
 
 <p class="lead">Water is life: all Earthly organisms rely on water. Water is death: it drowns, floods, washes away.</p>
 

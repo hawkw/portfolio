@@ -23,7 +23,15 @@ layout: default
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
     </div>
-    <div class="excerpt"> <a href="{{ post.url | prepend: site.github.url }}">{{ post.excerpt }}</a> </div>
+    <div class="excerpt">
+        <a href="{{ post.url | prepend: site.github.url }}">
+            {% if post.image != "" %}
+                <img src="{{ site.github.url}}/{{ post.image }}" / >
+            {% else %}
+                {{ post.excerpt }}
+            {% endif %}
+        </a>
+    </div>
   </div>
 {% endfor %}
 {% endif %}
