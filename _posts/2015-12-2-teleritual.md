@@ -13,4 +13,4 @@ image: "assets/teleritual/teleritual_01.jpg"
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_02.jpg)
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_03.jpg)
 
-Read: a [proposal and artist's statement]({{ site.github.url }}/assets/teleritual/teleritual_proposal.pdf)) or the [Type 32 Etheric Resonance Unit Operating Manual]({{ site.github.url }}/assets/teleritual/teleritual_operating_manual.pdf)).
+Read: a [proposal and artist's statement]({{ site.github.url }}/assets/teleritual/teleritual_proposal.pdf) or the [Type 32 Etheric Resonance Unit Operating Manual]({{ site.github.url }}/assets/teleritual/teleritual_operating_manual.pdf).
