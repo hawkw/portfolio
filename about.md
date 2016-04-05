@@ -5,7 +5,7 @@ permalink: /about/
 
 ![Eliza]({{ site.github.url }}/assets/liza.png)
 
-<p class="lead">Eliza Weisman is an artist currently based in Pennsylvania.</p>
+Eliza Weisman has been accused of being an artist, a scientist, a witch, a storyteller, a student, a psychic vampire, a trauma survivor, a bad dancer, a poet, a failure, too smart for her own good, a human being, a millennial, and a Pennsylvania resident.
 
 Eliza's artistic practice sits at a nexus between interactive art, storytelling, and ritual. She has worked with a wide range of media, including electronic and digital art, sculpture, living organisms, and performance. Drawing together elements of mysticism, the technoculture, and social criticism, Eliza's work explores themes of the occult, the future of humanity, and the role of technology in society. Her art-making is informed by her personal experience of mental illness, life as a transgender woman and as a member of the so called "millennial generation", and her education in science and engineering.
 
