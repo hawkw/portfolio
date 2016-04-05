@@ -1,6 +1,6 @@
 ---
 title: "A Series of Revelations"
-image: "assets/revelations/survival_preview.png"
+image: "assets/revelations/face_of_things_to_come.png"
 ---
 <!-- ![The Survival of the Magical Tradition]({{ site.github.url }}/assets/revelations/survival_preview.png) -->
 
