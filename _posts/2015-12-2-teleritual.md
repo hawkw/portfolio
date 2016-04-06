@@ -21,3 +21,5 @@ Each object will consist of a plastic crystal-like form with RGB light-emitting 
 To provide the audience with hints as to how to interact with the piece, a manila envelope of instructions will be distributed with each unit. This document will written be in the cryptic style of a classified document, with redactions and code words, allowing the reader's imagination to fill in the blanks to create a unique vision of the alternate reality out of which this object was plucked. Reading this document will both help the audience understand what to do with the piece and draw them into its story.
 
 Read: a [proposal and artist's statement]({{ site.github.url }}/assets/teleritual/teleritual_proposal.pdf) or the [Type 32 Etheric Resonance Unit Operating Manual]({{ site.github.url }}/assets/teleritual/teleritual_operating_manual.pdf).
+
+<div data-configid="23994610/34691534" style="width:720px; height:466px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>

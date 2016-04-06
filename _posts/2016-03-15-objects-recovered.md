@@ -7,3 +7,5 @@ image: "assets/objects_recovered/banner.png"
 
 <div data-configid="23994610/34144986" style="width:720px; height:720px;" class="issuuembed"></div>
 <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+
+A very special thank you to René Descartes, who graciously allowed his work to be used in *Objects Recovered From Site D*. Thanks, René!
