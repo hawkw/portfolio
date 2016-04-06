@@ -3,7 +3,7 @@ layout: default
 ---
 <header class="masthead">
   <h1 class="masthead-title">
-    <a href="{{ site.github.url }}/">{{ site.name }}<span>
+    {{ site.name }}
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
@@ -26,7 +26,9 @@ layout: default
     <div class="excerpt">
         <a href="{{ post.url | prepend: site.github.url }}">
             {% if post.image != "" %}
-                <img src="{{ site.github.url}}/{{ post.image }}" / >
+                <div class="list-post-image">
+                    <img src="{{ site.github.url}}/{{ post.image }}" />
+                </div>
             {% else %}
                 {{ post.excerpt }}
             {% endif %}

@@ -174,11 +174,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -453,13 +453,15 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
-    + a {
-        margin-left: 1rem;
-    }
     a {
         &:hover,
         &:focus { color: #ddd; }
+        // display: inline-block;
     }
+    a + a {
+        margin-left: 0.5rem;
+    }
+
 
 
   }
@@ -470,7 +472,7 @@ tbody tr:nth-child(odd) th {
   &-title {
     font-family: $helvetica;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -520,7 +522,13 @@ tbody tr:nth-child(odd) th {
     }
   }
   .excerpt {
-      margin-bottom: 3rem;
+        margin-bottom: 3rem;
+    img {
+        width: 720px;
+        height: 405px;
+        object-fit: cover;
+        // border-radius: 2rem;
+        }
   }
 }
 
