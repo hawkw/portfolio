@@ -71,42 +71,15 @@
 //
 
 @font-face {
-    font-family: 'Hythlodaeus';
-    src: url('fonts/hythlodaeus-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Source Code Pro';
-    src: url('fonts/SourceCodePro-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Source Code Pro';
-    src: url('fonts/SourceCodePro-Semibold.woff') format('woff');
+    font-family: 'm_1m';
+    src: url('fonts/EOT/mplus-1m-bold-webfont.eot');
+    src: url('fonts/EOT/mplus-1m-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WOFF/mplus-1m-bold-webfont.woff') format('woff'),
+         url('fonts/TTF/mplus-1m-bold-webfont.ttf') format('truetype'),
+         url('fonts/SVG/mplus-1m-bold-webfont.svg#m_1mbold') format('svg');
     font-weight: bold;
-}
+    font-style: normal;
 
-
-@font-face {
-    font-family: 'Hythlodaeus Lining';
-    src: url('fonts/hythlodaeus-regular-lining-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Hythlodaeus';
-    src: url('fonts/hythlodaeus-italic-webfont.woff') format('woff');
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Hythlodaeus';
-    src: url('fonts/hythlodaeus-bold-webfont.woff') format('woff');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Hythlodaeus SC';
-    src: url('fonts/hythlodaeus-sc-webfont.woff') format('woff');
 }
 
 
@@ -114,6 +87,7 @@ $serif-font-stack: "Hythlodaeus", serif;
 $sans-font-stack: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $code-font-stack: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+$title-font: m_1m, Menlo, Monaco, monospace;
 
 .small-caps {
     -ms-font-feature-settings: "smcp";
@@ -191,7 +165,7 @@ h4, h5, h6 {
 
 p {
   margin: 0 0 1rem;
-  font-family: Helvetica;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   font-weight: 475;
   font-size: .6rem;
   line-height: 1.6;
@@ -424,18 +398,16 @@ tbody tr:nth-child(odd) th {
     }
 
   &-title {
-    margin-bottom: -0.55rem;
-    font-family: Monaco, Menlo, Monospace;
-    font-weight: 900;
+    margin-bottom: -0.6rem;
+    font-family: $title-font;
+    font-weight: bold;
     font-size: 2.5rem;
     margin-left: -0.1rem;
 
   }
 
   &-title--small {
-
-    margin-bottom: -0.3rem;
-    // margin-bottom: .75rem;
+    margin-bottom: -0.1rem;
     font-family: $sans-font-stack;
     font-size: .75rem;
     font-weight: 600;
@@ -449,6 +421,7 @@ tbody tr:nth-child(odd) th {
   }
 
   &-nav {
+    margin-top: -0.5rem;
     margin-bottom: 1rem;
     font-family: $sans-font-stack;
     font-size: .75rem;
@@ -471,8 +444,8 @@ tbody tr:nth-child(odd) th {
 
 .page {
   &-title {
-    font-family: Monaco, Menlo, Monospace;
-    font-weight: 900;
+    font-family: $title-font;
+    font-weight: bold;
     margin-bottom: 1rem;
     margin-left: -0.1rem;
   }
@@ -480,8 +453,8 @@ tbody tr:nth-child(odd) th {
 
 .post {
   &-title {
-    font-family: Monaco, Menlo, Monospace;
-    font-weight: 900;
+    font-family: $title-font;
+    font-weight: bold;
     margin-bottom: -.30rem;
     margin-left: -0.1rem;
   }
