@@ -77,7 +77,29 @@
          url('fonts/WOFF/mplus-1m-bold-webfont.woff') format('woff'),
          url('fonts/TTF/mplus-1m-bold-webfont.ttf') format('truetype'),
          url('fonts/SVG/mplus-1m-bold-webfont.svg#m_1mbold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'm_1m';
+    src: url('fonts/EOT/mplus-1m-medium-webfont.eot');
+    src: url('fonts/EOT/mplus-1m-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WOFF/mplus-1m-medium-webfont.woff') format('woff'),
+         url('fonts/TTF/mplus-1m-medium-webfont.ttf') format('truetype'),
+         url('fonts/SVG/mplus-1m-medium-webfont.svg#m_1mmedium') format('svg');
     font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'm_1m';
+    src: url('fonts/EOT/mplus-1m-regular-webfont.eot');
+    src: url('fonts/EOT/mplus-1m-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WOFF/mplus-1m-regular-webfont.woff') format('woff'),
+         url('fonts/TTF/mplus-1m-regular-webfont.ttf') format('truetype'),
+         url('fonts/SVG/mplus-1m-regular-webfont.svg#m_1mregular') format('svg');
+    font-weight: normal;
     font-style: normal;
 
 }
@@ -400,7 +422,7 @@ tbody tr:nth-child(odd) th {
   &-title {
     margin-bottom: -0.6rem;
     font-family: $title-font;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 2.5rem;
     margin-left: -0.1rem;
 
@@ -445,7 +467,7 @@ tbody tr:nth-child(odd) th {
 .page {
   &-title {
     font-family: $title-font;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 1rem;
     margin-left: -0.1rem;
   }
@@ -473,8 +495,8 @@ tbody tr:nth-child(odd) th {
 
 .list {
   &-post-title {
-    font-family: $helvetica;
-    font-weight: 850;
+    font-family: $title-font;
+    font-weight: bold;
     margin-bottom: -.30rem;
     a {
       color: black;
