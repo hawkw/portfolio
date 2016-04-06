@@ -8,13 +8,17 @@ _Blood Ritual No. 1_ is a short film which borrows the aesthetic language of kit
 
 <div class="vimeo"><iframe src="https://player.vimeo.com/video/161779272" width="720" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-_Blood Ritual No. 1_ was created in collaboration with KJ Sweet. Many thanks to Gene Frank, Menachem Lattke, Maggie Stanger, and Marilyn Boatwright for appearing in this film, and to Emma Sonder, for supplementary cinematography.
-
+_Blood Ritual No. 1_ was created in collaboration with KJ Sweet. The piece is inspired by both artists undergoing personal transformations: Eliza had recently begun seeking out hormone-replacement therapy, a prospect she was both excited and terrified by, while KJ started taking antidepressant medication during the filming of the piece.
 
 <!-- ![07]({{ site.github.url }}/assets/blood_ritual/gif/07.gif)
 ![05]({{ site.github.url }}/assets/blood_ritual/gif/05.gif) -->
 ![01]({{ site.github.url }}/assets/blood_ritual/gif/01.gif)
-![03]({{ site.github.url }}/assets/blood_ritual/gif/03.gif)
+
+The use of blood in the film was drawn from Eliza's struggle with a phobia of needles and blood-drawing, which had proved a major obstacle to her in the past. Although the ritual depicted in _Blood Ritual No. 1_ may seem dark and frightening, the piece intends to depict the process of facing one's fears and emerging transformed.
+
 ![04]({{ site.github.url }}/assets/blood_ritual/gif/04.gif)
-![06]({{ site.github.url }}/assets/blood_ritual/gif/06.gif)
+![03]({{ site.github.url }}/assets/blood_ritual/gif/03.gif)
+<!-- ![06]({{ site.github.url }}/assets/blood_ritual/gif/06.gif) -->
+
+Many thanks to Gene Frank, Menachem Lattke, Maggie Stanger, and Marilyn Boatwright for appearing in this film, and to Emma Sonder, for supplementary cinematography.
 <!-- ![02]({{ site.github.url }}/assets/blood_ritual/gif/02.gif) -->
