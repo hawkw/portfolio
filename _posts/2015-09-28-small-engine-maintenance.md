@@ -1,7 +1,6 @@
 ---
 title: Small Engine Maintenance & Repair
-image: ""
-video: "http://i.imgur.com/sC5Wl11.gif"
+image: "http://i.imgur.com/sC5Wl11.gif"
 category: film
 ---
 _Small Engine Maintenance and Repair_ is a short film dealing with the futility of human artifice, the nature of self-destructive behaviour, and the inevitability of death – with tongue placed firmly in cheek.
