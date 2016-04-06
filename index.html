@@ -26,7 +26,11 @@ layout: default
     <div class="excerpt">
         <a href="{{ post.url | prepend: site.github.url }}">
             {% if post.image != "" %}
-                    <img src="{{ site.github.url}}/{{ post.image }}" />
+                <img src="{{ site.github.url}}/{{ post.image }}" />
+            {% else if post.video != "" %}
+            <video width="720" height="405" autoplay loop>
+                <source src="{{ post.video }}" type="video/mp4">
+            </video>
             {% else %}
                 {{ post.excerpt }}
             {% endif %}
