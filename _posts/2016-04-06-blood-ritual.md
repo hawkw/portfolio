@@ -11,10 +11,10 @@ _Blood Ritual No. 1_ is a short film which borrows the aesthetic language of kit
 _Blood Ritual No. 1_ was created in collaboration with KJ Sweet. Many thanks to Gene Frank, Menachem Lattke, Maggie Stanger, and Marilyn Boatwright for appearing in this film, and to Emma Sonder, for supplementary cinematography.
 
 
-![07]({{ site.github.url }}/assets/blood_ritual/gif/07.gif)
-![05]({{ site.github.url }}/assets/blood_ritual/gif/05.gif)
+<!-- ![07]({{ site.github.url }}/assets/blood_ritual/gif/07.gif)
+![05]({{ site.github.url }}/assets/blood_ritual/gif/05.gif) -->
 ![01]({{ site.github.url }}/assets/blood_ritual/gif/01.gif)
 ![03]({{ site.github.url }}/assets/blood_ritual/gif/03.gif)
 ![04]({{ site.github.url }}/assets/blood_ritual/gif/04.gif)
 ![06]({{ site.github.url }}/assets/blood_ritual/gif/06.gif)
-![02]({{ site.github.url }}/assets/blood_ritual/gif/02.gif)
+<!-- ![02]({{ site.github.url }}/assets/blood_ritual/gif/02.gif) -->
