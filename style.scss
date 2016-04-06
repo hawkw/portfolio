@@ -76,6 +76,18 @@
 }
 
 @font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-Semibold.woff') format('woff');
+    font-weight: bold;
+}
+
+
+@font-face {
     font-family: 'Hythlodaeus Lining';
     src: url('fonts/hythlodaeus-regular-lining-webfont.woff') format('woff');
 }
@@ -120,7 +132,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: $serif-font-stack;
 }
 
 html {
@@ -138,8 +149,6 @@ body {
   background-color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
-  line-height: 175%;
-  font-size: 16px;
 }
 
 a {
@@ -153,12 +162,15 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  // font-family: $code-font-stack;
+  // font-weight: black;
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
   line-height: 1.1;
   color: black;
   letter-spacing: -.025rem;
+
 }
 
 h1 {
@@ -179,6 +191,10 @@ h4, h5, h6 {
 
 p {
   margin: 0 0 1rem;
+  font-family: Helvetica;
+  font-weight: 475;
+  font-size: .6rem;
+  line-height: 1.6;
   // font-size: 13px;
 }
 
@@ -223,11 +239,6 @@ ol {
     margin-top: .25rem;
     margin-bottom: .5rem;
   }
-}
-
-.content {
-    // font-size: 16px;
-    font-family: $serif-font-stack;
 }
 
 p + h1,
@@ -402,27 +413,27 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead {
-
-  &-title {
-    font-family: $serif-font-stack;
-    margin-bottom: -0.55rem;
-
-    a {
+  a {
       color: black;
 
       &:hover,
       &:focus {
         text-decoration: none;
+        color:black;
       }
     }
 
-    span {
-      color: #ddd;
-    }
+  &-title {
+    margin-bottom: -0.55rem;
+    font-family: $helvetica;
+    font-weight: 900;
+    font-size: 2.2rem;
 
   }
 
   &-title--small {
+
+    margin-bottom: -0.3rem;
     // margin-bottom: .75rem;
     font-family: $sans-font-stack;
     font-size: .75rem;
@@ -430,60 +441,52 @@ tbody tr:nth-child(odd) th {
     text-transform: uppercase;
 
     a {
-      color: black;
-
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }
+        &:hover,
+        &:focus { color: #ddd; }
     }
+
   }
 
-  .masthead-nav {
-    margin-bottom: 2rem;
+  &-nav {
+    margin-bottom: 1rem;
     font-family: $sans-font-stack;
     font-size: .75rem;
     font-weight: 600;
     text-transform: uppercase;
-
-    a {
-      color: black;
-    //   font-weight: 300;
-    //   text-transform: lowercase;
-      -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
-
-      &:hover,
-      &:focus {
-        color: #ddd;
-        text-decoration: none;
-      }
-
-      + a {
-        margin-left: .25rem;
-      }
+    + a {
+        margin-left: 1rem;
     }
+    a {
+        &:hover,
+        &:focus { color: #ddd; }
+    }
+
+
   }
 
 }
 
 .page {
   &-title {
+    font-family: $helvetica;
+    font-weight: 900;
     margin-bottom: 2rem;
   }
 }
 
 .post {
   &-title {
+    font-family: $helvetica;
+    font-weight: 900;
     margin-bottom: -.30rem;
   }
   &-date {
     margin-bottom: 2rem;
     font-size: .75rem;
     text-transform: uppercase;
-    // font-variant: small-caps;
-    font-family: 'Hythlodaeus Lining', 'Hythlodaeus';
+    font-family: $sans-font-stack;
+    font-size: .75rem;
+    font-weight: 600;
     + a {
       margin-left: .25rem;
     }
@@ -492,14 +495,16 @@ tbody tr:nth-child(odd) th {
 
 .list {
   &-post-title {
+    font-family: $helvetica;
+    font-weight: 850;
     margin-bottom: -.30rem;
-
     a {
       color: black;
-
       &:hover,
       &:focus {
-        text-decoration: none;
+        text-decoration: underline;
+        color: black;
+        // border-bottom: 2px solid black;
       }
     }
   }
@@ -507,8 +512,9 @@ tbody tr:nth-child(odd) th {
     margin-bottom: .30rem;
     font-size: .75rem;
     text-transform: uppercase;
-    // font-variant: small-caps;
-    font-family: 'Hythlodaeus Lining', 'Hythlodaeus';
+    font-family: $sans-font-stack;
+    font-size: .75rem;
+    font-weight: 600;
     + a {
       margin-left: .25rem;
     }
@@ -520,7 +526,7 @@ tbody tr:nth-child(odd) th {
 
 .projects-list {
   a {
-    color: #333;
+    color: #ddd;
   }
 }
 
