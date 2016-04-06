@@ -7,7 +7,8 @@ permalink: /about/
 
 Eliza Weisman has been accused of being an artist, a scientist, a witch, a storyteller, a student, a psychic vampire, a trauma survivor, a bad dancer, a poet, a failure, too smart for her own good, a human being, a millennial, and a Pennsylvania resident.
 
-<div style="overflow:hidden; height: 245px;display:block;">
+<div style="overflow:hidden; height: 245px;display:block;
+margin: 0 0 1rem;">
 <video width="720" height="405" autoplay loop style="position: relative; top: -101px">
     <source src="http://i.imgur.com/DhVkPoE.mp4" type="video/mp4">
 </video>
