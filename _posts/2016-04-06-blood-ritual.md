@@ -1,6 +1,6 @@
 ---
 title: "Blood Ritual No. 1"
-image: "assets/blood_ritual/gif/02_2.gif"
+image: "assets/blood_ritual/gif/02.gif"
 category: film
 tags: [film, ritual]
 ---
