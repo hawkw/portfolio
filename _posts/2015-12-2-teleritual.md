@@ -1,6 +1,7 @@
 ---
 title: Teleritual
 image: "assets/teleritual/teleritual_01.jpg"
+tags: [ritual]
 ---
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_01.jpg)
 
