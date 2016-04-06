@@ -425,9 +425,10 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     margin-bottom: -0.55rem;
-    font-family: $helvetica;
+    font-family: Monaco, Menlo, Monospace;
     font-weight: 900;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    margin-left: -0.1rem;
 
   }
 
@@ -470,17 +471,19 @@ tbody tr:nth-child(odd) th {
 
 .page {
   &-title {
-    font-family: $helvetica;
+    font-family: Monaco, Menlo, Monospace;
     font-weight: 900;
     margin-bottom: 1rem;
+    margin-left: -0.1rem;
   }
 }
 
 .post {
   &-title {
-    font-family: $helvetica;
+    font-family: Monaco, Menlo, Monospace;
     font-weight: 900;
     margin-bottom: -.30rem;
+    margin-left: -0.1rem;
   }
   &-date {
     margin-bottom: 2rem;
