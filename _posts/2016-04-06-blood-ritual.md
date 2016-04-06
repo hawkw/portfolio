@@ -14,7 +14,7 @@ _Blood Ritual No. 1_ was created in collaboration with KJ Sweet. The piece is in
 ![05]({{ site.github.url }}/assets/blood_ritual/gif/05.gif) -->
 ![01]({{ site.github.url }}/assets/blood_ritual/gif/01.gif)
 
-The use of blood in the film was drawn from Eliza's struggle with a phobia of needles and blood-drawing, which had proved a major obstacle to her in the past. Although the ritual depicted in _Blood Ritual No. 1_ may seem dark and frightening, the piece intends to depict the process of facing one's fears and emerging transformed.
+The use of blood in the film was drawn from Eliza's struggle with a phobia of needles and blood-drawing, which had proved a major obstacle to her in the past. Although the ritual depicted in _Blood Ritual No. 1_ may seem dark and frightening, the piece intends to depict the process of facing one's fears and emerging transformed. For many marginalised people, especially those suffering from trauma and mental illness, dark imagery and symbols can often provide a source of comfort.
 
 ![04]({{ site.github.url }}/assets/blood_ritual/gif/04.gif)
 ![03]({{ site.github.url }}/assets/blood_ritual/gif/03.gif)
