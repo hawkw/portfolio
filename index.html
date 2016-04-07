@@ -3,7 +3,7 @@ layout: default
 ---
 <header class="masthead">
   <h1 class="masthead-title">
-    {{ site.name }}
+    {{ site.name | upcase }}
   </h1>
   <nav class="masthead-nav">
     {% for nav in site.nav %}
@@ -37,7 +37,13 @@ layout: default
         <div class="list-post-date">
           <time>{{ post.date | date: '%B %Y' }}</time>
         </div>
-        <p>{{ post.excerpt | replace: '<em>', '_' | replace: '</em>', '__' |  strip_html | replace: '__', '</em>' | replace: '_', '<em>' | truncatewords: 50 }}</p>
+        <p>{{ post.excerpt | replace: '<em>', '_'
+                           | replace: '</em>', '__'
+                           | strip_html
+                           | replace: '__', '</em>'
+                           | replace: '_', '<em>'
+                           | truncatewords: 50
+            }}</p>
     </div>
 
   </div>

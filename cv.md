@@ -1,5 +1,5 @@
 ---
-title: Résumé and CV
+title: Résumé & CV
 permalink: /cv/
 ---
 

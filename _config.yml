@@ -15,10 +15,10 @@ markdown:           kramdown
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "about"
+  - name:           "Statement"
+    href:           "/about"
   - name:           "Résumé & CV"
-    href:           "cv"
+    href:           "/cv"
   - name:           "Contact"
     href:           "mailto://hi@hawkweisman.me"
 
