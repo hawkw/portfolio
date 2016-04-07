@@ -1,6 +1,75 @@
 ---
 ---
 
+/* Fonts */
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-ExtraLight.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-ExtraLight.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-ExtraLightIt.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-ExtraLightIt.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-ExtraLightIt.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-ExtraLightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-Light.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-LightIt.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-LightIt.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-LightIt.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-LightIt.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-Regular.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-Regular.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('fonts/EOT/SourceSansPro-It.eot') format('embedded-opentype'),
+         url('fonts/WOFF/OTF/SourceSansPro-It.otf.woff') format('woff'),
+         url('fonts/OTF/SourceSansPro-It.otf') format('opentype'),
+         url('fonts/TTF/SourceSansPro-It.ttf') format('truetype');
+}
+
+
 @font-face {
     font-family: 'm_1m';
     src: url('fonts/EOT/mplus-1m-bold-webfont.eot');
@@ -8,7 +77,7 @@
          url('fonts/WOFF/mplus-1m-bold-webfont.woff') format('woff'),
          url('fonts/TTF/mplus-1m-bold-webfont.ttf') format('truetype'),
          url('fonts/SVG/mplus-1m-bold-webfont.svg#m_1mbold') format('svg');
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;
 }
 
@@ -19,7 +88,7 @@
          url('fonts/WOFF/mplus-1m-medium-webfont.woff') format('woff'),
          url('fonts/TTF/mplus-1m-medium-webfont.ttf') format('truetype'),
          url('fonts/SVG/mplus-1m-medium-webfont.svg#m_1mmedium') format('svg');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -30,17 +99,33 @@
          url('fonts/WOFF/mplus-1m-regular-webfont.woff') format('woff'),
          url('fonts/TTF/mplus-1m-regular-webfont.ttf') format('truetype'),
          url('fonts/SVG/mplus-1m-regular-webfont.svg#m_1mregular') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 
 }
 
 
-$serif-font-stack: "Hythlodaeus", serif;
-$sans-font-stack: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-font-stack: "Source Sans Pro", Helvetica, "Helvetica Neue", Arial, sans-serif;
 $code-font-stack: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
 $title-font: m_1m, Menlo, Monaco, monospace;
+
+@mixin title() {
+    font-family: $title-font;
+    font-weight: 800;
+}
+
+@mixin title-small() {
+    font-family: $sans-font-stack;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    a:hover,
+    a:focus {
+        color: #ddd;
+    }
+}
+
 
 .small-caps {
     -ms-font-feature-settings: "smcp";
@@ -79,18 +164,10 @@ body {
 }
 
 a {
-  color: #268bd2;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  // font-family: $code-font-stack;
-  // font-weight: black;
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
@@ -101,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 h2 {
@@ -109,7 +186,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 h4, h5, h6 {
@@ -118,11 +195,20 @@ h4, h5, h6 {
 
 p {
   margin: 0 0 1rem;
-  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-family: $sans-font-stack;
   font-weight: 475;
   font-size: .6rem;
   line-height: 1.6;
-  // font-size: 13px;
+  a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    &:hover,
+    &:focus {
+        border-bottom: none;
+    }
+  }
 }
 
 ul, ol, dl {
@@ -336,29 +422,24 @@ tbody tr:nth-child(odd) th {
       &:hover,
       &:focus {
         text-decoration: none;
-        color:black;
+        color: black;
       }
     }
 
   &-title {
+    @include title();
     margin-bottom: -0.6rem;
-    font-family: $title-font;
-    font-weight: 900;
-    font-size: 2.5rem;
     margin-left: -0.1rem;
 
   }
 
   &-title--small {
     margin-bottom: -0.1rem;
-    font-family: $sans-font-stack;
-    font-size: .75rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    @include title-small();
 
-    a {
-        &:hover,
-        &:focus { color: #ddd; }
+    a:hover,
+    a:focus {
+        color: #ddd;
     }
 
   }
@@ -366,48 +447,36 @@ tbody tr:nth-child(odd) th {
   &-nav {
     margin-top: -0.5rem;
     margin-bottom: 1rem;
-    font-family: $sans-font-stack;
-    font-size: .75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    a {
-        &:hover,
-        &:focus { color: #ddd; }
-        // display: inline-block;
-    }
+    @include title-small();
     a + a {
         margin-left: 0.5rem;
     }
-
-
 
   }
 
 }
 
 .page {
+
   &-title {
-    font-family: $title-font;
-    font-weight: bolder;
+    @include title();
     margin-bottom: 1rem;
     margin-left: -0.1rem;
   }
+
 }
 
 .post {
+
   &-title {
-    font-family: $title-font;
-    font-weight: bold;
+    @include title();
     margin-bottom: -.30rem;
     margin-left: -0.1rem;
   }
+
   &-date {
     margin-bottom: 2rem;
-    font-size: .75rem;
-    text-transform: uppercase;
-    font-family: $sans-font-stack;
-    font-size: .75rem;
-    font-weight: 600;
+    @include title-small();
     + a {
       margin-left: .25rem;
     }
@@ -415,9 +484,10 @@ tbody tr:nth-child(odd) th {
 }
 
 .list {
+
   &-post-title {
-    font-family: $title-font;
-    font-weight: bold;
+    @include title();
+
     margin-bottom: -.30rem;
     a {
       color: black;
@@ -425,30 +495,23 @@ tbody tr:nth-child(odd) th {
       &:focus {
         text-decoration: underline;
         color: black;
-        // border-bottom: 2px solid black;
       }
     }
   }
+
   &-post-date {
     margin-bottom: .30rem;
-    font-size: .75rem;
-    text-transform: uppercase;
-    font-family: $sans-font-stack;
-    font-size: .75rem;
-    font-weight: 600;
-    + a {
-      margin-left: .25rem;
-    }
+    @include title-small();
   }
+
   .excerpt {
         margin-bottom: 3rem;
-    img {
-        width: 720px;
-        height: 405px;
-        object-fit: cover;
-        // border-radius: 2rem;
+        img {
+            width: 720px;
+            height: 405px;
+            object-fit: cover;
         }
-  }
+    }
 }
 
 .projects-list {
