@@ -17,25 +17,29 @@ layout: default
 {% else %}
 {% for post in site.posts %}
   <div class="list-item">
-    <h2 class="list-post-title">
-      <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
-    </h2>
-    <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
-    </div>
-    <div class="excerpt">
+    <div class="list-thumb">
         <a href="{{ post.url | prepend: site.github.url }}">
             {% if post.image != "" %}
-                <img src="{{ site.github.url}}/{{ post.image }}" />
+                <!-- <div class="img-wrapper>" -->
+                    <img src="{{ site.github.url}}/{{ post.image }}" />
+                <!-- </div> -->
             {% else if post.video != "" %}
-            <video width="720" height="405" autoplay loop>
-                <source src="{{ post.video }}" type="video/mp4">
-            </video>
-            {% else %}
-                {{ post.excerpt }}
+                <video autoplay loop>
+                    <source src="{{ post.video }}" type="video/mp4">
+                </video>
             {% endif %}
         </a>
     </div>
+    <div class="list-text">
+        <h2 class="list-post-title">
+          <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
+        </h2>
+        <div class="list-post-date">
+          <time>{{ post.date | date: '%B %Y' }}</time>
+        </div>
+        <p>{{ post.excerpt | replace: '<em>', '_' | replace: '</em>', '__' |  strip_html | replace: '__', '</em>' | replace: '_', '<em>' | truncatewords: 50 }}</p>
+    </div>
+
   </div>
 {% endfor %}
 {% endif %}

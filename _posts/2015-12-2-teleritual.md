@@ -6,6 +6,7 @@ tags: [ritual]
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_01.jpg)
 
 _Teleritual_, the Type 32 Etheric Resonance Unit, is a technology-assisted ritual object which enables human interaction through atypical channels. It may alternatively be seen as an interactive artwork, a communication device, or a mystical item.
+<!--excerpt-->
 
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_02.jpg)
 ![Teleritual]({{ site.github.url }}/assets/teleritual/teleritual_03.jpg)

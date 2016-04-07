@@ -2,10 +2,11 @@
 title: Water of Life
 image: "assets/water_of_life/water_of_life_01.png"
 ---
-<!--excerpt-->
+
 ![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_01.png)
 
 Water is life: all Earthly organisms rely on water. Water is death: it drowns, floods, washes away. Water is life: even the purest water teems with untold millions of invisible microörganisms, many of which are necessary to human survival. Water is death: just as many of these organisms are deadly.
+<!--excerpt-->
 
 ![Water of Life]({{ site.github.url }}/assets/water_of_life/water_of_life_02.png)
 

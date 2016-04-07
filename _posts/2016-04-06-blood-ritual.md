@@ -6,6 +6,7 @@ category: film
 tags: [film, ritual]
 ---
 _Blood Ritual No. 1_ is a short film which borrows the aesthetic language of kitsch horror cinema to explore themes of ritual, mental illness, and personal growth and transformation.
+<!--excerpt-->
 
 <div class="vimeo"><iframe src="https://player.vimeo.com/video/161779272" width="720" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
