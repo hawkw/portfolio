@@ -111,7 +111,10 @@ $title-font: m_1m, Menlo, Monaco, monospace;
 
 @mixin title() {
     font-family: $title-font;
-    font-weight: 800;
+    // font-weight: 800;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    margin-bottom: -0.5rem;
 }
 
 @mixin title-small() {
@@ -177,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 h2 {
@@ -429,7 +432,6 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     @include title();
-    margin-bottom: -0.3rem;
     margin-left: -0.1rem;
 
   }
@@ -515,15 +517,19 @@ tbody tr:nth-child(odd) th {
 
   &-post-title {
     @include title();
-    margin-bottom: -.30rem;
+    margin-bottom: -0.4rem;
+    font-weight: 600;
+    // letter-spacing: 0.04rem;
     a {
       color: black;
       &:hover,
       &:focus {
-        text-decoration: underline;
-        color: black;
+        // text-decoration: underline;
+        // color: black;
+        color: #ddd;
       }
     }
+
   }
 
   &-post-date {
